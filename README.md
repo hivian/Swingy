@@ -15,8 +15,8 @@ Execution: ```java -jar target/swingy.jar [console/gui]```
 
 <h4>CLI example:</h4>
 
-![img](cli_screen.png?raw=true)
+![img](gui_screen.png?raw=true)
 
 <h4>GUI example:</h4>
 
-![img](gui_screen.png?raw=true)
+![img](cli_screen.png?raw=true)
