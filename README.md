@@ -6,7 +6,7 @@ Text-based RPG with CLI and GUI view
 Build: ```mvn clean package```<br>
 Execution: ```java -jar target/swingy.jar [console/gui]```
 
-<h4>Extra options:</h4>
+<h4>Otions:</h4>
 • Model-View-Controller design pattern.<br>
 • Automated build with Maven.<br>
 • Annotation based user input validation.<br>
