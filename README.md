@@ -1,12 +1,12 @@
 # Swingy
-Text-based RPG with CLI and GUI view
+Text-based RPG with CLI and GUI view (Swing Framework)
 
 <h4>Usage:</h4>
 
 Build: ```mvn clean package```<br>
 Execution: ```java -jar target/swingy.jar [console/gui]```
 
-<h4>Otions:</h4>
+<h4>Features:</h4>
 • Model-View-Controller design pattern.<br>
 • Automated build with Maven.<br>
 • Annotation based user input validation.<br>
