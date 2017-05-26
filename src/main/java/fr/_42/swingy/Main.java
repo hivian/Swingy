@@ -4,6 +4,8 @@ import fr._42.swingy.Utility.Logger;
 import fr._42.swingy.view.cli.CliView;
 import fr._42.swingy.view.gui.GuiView;
 
+import javax.validation.Validation;
+
 import static fr._42.swingy.Utility.Global.*;
 
 /**
@@ -12,15 +14,22 @@ import static fr._42.swingy.Utility.Global.*;
 public class Main {
     public static void main(String[] arg) {
         try {
-            if (arg[0].equals("console")) {
-                Logger.print(ANSI_CYAN + "Welcome to \"42 RPG\"" + ANSI_RESET);
-                CliView.run();
-            }
-            if (arg[0].equals("gui")) {
-                GuiView.run();
+            switch (arg[0]) {
+                case "console":
+                    Logger.print(ANSI_CYAN + "Welcome to \"42 RPG\"" + ANSI_RESET);
+                    factory = Validation.buildDefaultValidatorFactory();
+                    CliView.run();
+                    break;
+                case "gui":
+                    factory = Validation.buildDefaultValidatorFactory();
+                    GuiView.run();
+                    break;
+                default:
+                    Logger.print("Usage: java -jar target/swingy [console/gui]");
+                    break;
             }
         } catch (ArrayIndexOutOfBoundsException e) {
-            Logger.print("Select console or gui");
+            Logger.print("Usage: java -jar target/swingy [console/gui]");
         }
     }
 }

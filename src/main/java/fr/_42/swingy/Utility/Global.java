@@ -24,7 +24,7 @@ public class Global {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    public static ValidatorFactory factory = Validation.buildDefaultValidatorFactory();
+    public static ValidatorFactory factory;
     public static Boolean bIsHero = false;
     public static Boolean bLootChoice = false;
     public static Boolean bFightPhase = false;

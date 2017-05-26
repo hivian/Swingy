@@ -164,7 +164,7 @@ public class GameManager {
                     }
                 } else {
                     Logger.print(ANSI_RED + ">" + ANSI_RESET + " Incorrect choice");
-                    Print.printDirections();
+                    Print.printFightOptions();
                 }
             }
         } else {
