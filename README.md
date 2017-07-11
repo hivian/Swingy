@@ -15,8 +15,8 @@ Execution: ```java -jar target/swingy.jar [console/gui]```
 
 <h4>GUI example:</h4>
 
-<img src="https://github.com/hivian/swingy/blob/master/gui_screen.png" width="800">
+<img src="https://github.com/hivian/swingy/blob/master/gui_screen.png" width="850">
 
 <h4>CLI example:</h4>
 
-<img src="https://github.com/hivian/swingy/blob/master/cli_screen.png" width="800">
+<img src="https://github.com/hivian/swingy/blob/master/cli_screen.png" width="850">
