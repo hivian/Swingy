@@ -19,4 +19,4 @@ Execution: ```java -jar target/swingy.jar [console/gui]```
 
 <h4>CLI example:</h4>
 
-<img src="https://github.com/hivian/swingy/blob/master/cli_screen.png" width="850">
+<img src="https://github.com/hivian/swingy/blob/master/cli_screen.png" width="450">
